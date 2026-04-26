@@ -1,5 +1,6 @@
 #include "IntroPlayer.h"
 #include "Projectile.h"
+#include "IntroGameMode.h"
 
 // Sets default values
 AIntroPlayer::AIntroPlayer()
@@ -12,15 +13,35 @@ AIntroPlayer::AIntroPlayer()
 void AIntroPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	OnActorBeginOverlap.AddDynamic(this, &AIntroPlayer::OnOverlapBegin);
 }
 
-void AIntroPlayer::OnOverlapBegin(AActor *OverlappedActor, AActor *OtherActor)
+void AIntroPlayer::OnOverlapBegin(AActor *OtherActor)
 {
+	UE_LOG(LogTemp, Log, TEXT("overlap"));
 	if (AProjectile *Projectile = Cast<AProjectile>(OtherActor))
 	{
 		Projectile->Destroy();
+		Lives--;
+		if (Lives <= 0)
+		{
+			if (AIntroGameMode *GameMode = Cast<AIntroGameMode>(GetWorld()->GetAuthGameMode()))
+			{
+				GameMode->StopSpawning();
+			}
+			UE_LOG(LogTemp, Log, TEXT("game over"));
+			MoveSpeed = 0;
+		}
 	}
+	else
+	{
+		UE_LOG(LogTemp, Log, TEXT("cast failed"));
+	}
+}
+
+void AIntroPlayer::NotifyActorBeginOverlap(AActor *OtherActor)
+{
+	Super::NotifyActorBeginOverlap(OtherActor);
+	OnOverlapBegin(OtherActor);
 }
 
 // Called every frame
@@ -37,6 +58,5 @@ void AIntroPlayer::SetupPlayerInputComponent(UInputComponent *PlayerInputCompone
 
 void AIntroPlayer::Move(FVector2D Value)
 {
-	UE_LOG(LogTemp, Log, TEXT("x=%f, y=%f"), Value.X, Value.Y);
 	AddActorLocalOffset(MoveSpeed * FVector(Value.X, Value.Y, 0.0f));
 }

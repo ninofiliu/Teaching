@@ -25,6 +25,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ProjectileSpeed;
 
+	void StopSpawning();
+
 private:
 	FTimerHandle SpawnTimerHandle;
 

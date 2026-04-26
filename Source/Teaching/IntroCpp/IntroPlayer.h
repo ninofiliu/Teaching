@@ -16,6 +16,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MoveSpeed = 1.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 Lives = 5;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -31,5 +34,7 @@ public:
 	void Move(FVector2D Value);
 
 	UFUNCTION()
-	void OnOverlapBegin(AActor *OverlappedActor, AActor *OtherActor);
+	void OnOverlapBegin(AActor *OtherActor);
+
+	virtual void NotifyActorBeginOverlap(AActor *OtherActor) override;
 };

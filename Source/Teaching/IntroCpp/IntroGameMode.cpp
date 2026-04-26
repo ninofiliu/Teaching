@@ -37,3 +37,8 @@ void AIntroGameMode::SpawnProjectile()
     Projectile->Direction = Direction;
   }
 }
+
+void AIntroGameMode::StopSpawning()
+{
+  GetWorldTimerManager().ClearTimer(SpawnTimerHandle);
+}
