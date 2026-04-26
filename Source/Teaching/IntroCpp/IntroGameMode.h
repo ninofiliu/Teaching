@@ -11,7 +11,4 @@ UCLASS()
 class TEACHING_API AIntroGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-
-public:
-	AIntroGameMode();
 };

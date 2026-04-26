@@ -17,11 +17,16 @@ void AIntroPlayer::BeginPlay()
 void AIntroPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	UE_LOG(LogTemp, Log, TEXT("hello"));
 }
 
 // Called to bind functionality to input
 void AIntroPlayer::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+}
+
+void AIntroPlayer::Move(FVector2D Value)
+{
+	UE_LOG(LogTemp, Log, TEXT("x=%f, y=%f"), Value.X, Value.Y);
+	AddActorLocalOffset(MoveSpeed * FVector(Value.X, Value.Y, 0.0f));
 }
