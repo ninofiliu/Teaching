@@ -29,4 +29,7 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void Move(FVector2D Value);
+
+	UFUNCTION()
+	void OnOverlapBegin(AActor *OverlappedActor, AActor *OtherActor);
 };

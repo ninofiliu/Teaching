@@ -1,4 +1,5 @@
 #include "IntroPlayer.h"
+#include "Projectile.h"
 
 // Sets default values
 AIntroPlayer::AIntroPlayer()
@@ -11,6 +12,15 @@ AIntroPlayer::AIntroPlayer()
 void AIntroPlayer::BeginPlay()
 {
 	Super::BeginPlay();
+	OnActorBeginOverlap.AddDynamic(this, &AIntroPlayer::OnOverlapBegin);
+}
+
+void AIntroPlayer::OnOverlapBegin(AActor *OverlappedActor, AActor *OtherActor)
+{
+	if (AProjectile *Projectile = Cast<AProjectile>(OtherActor))
+	{
+		Projectile->Destroy();
+	}
 }
 
 // Called every frame
