@@ -1,89 +1,137 @@
 [
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroController.cpp",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2Controller.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroController.h",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2Controller.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroGameMode.cpp",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2GameMode.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroGameMode.h",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2GameMode.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroPlayer.cpp",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2Player.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\IntroPlayer.h",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2Player.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\Projectile.cpp",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroController.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\IntroCpp\\Projectile.h",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroController.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\Teaching.Build.cs",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroGameMode.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\Teaching.cpp",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroGameMode.h",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
-		"file": "D:\\ue\\Teaching\\Source\\Teaching\\Teaching.h",
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroPlayer.cpp",
 		"arguments": [
-			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
-			"@D:\\ue\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroPlayer.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\Projectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\Projectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Teaching.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Teaching.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Teaching.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
 		],
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	}
