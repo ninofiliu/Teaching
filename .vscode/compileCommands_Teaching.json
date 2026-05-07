@@ -48,6 +48,22 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Projectile2.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Projectile2.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Teaching\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp\\IntroController.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",

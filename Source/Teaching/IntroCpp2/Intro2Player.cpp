@@ -26,3 +26,8 @@ void AIntro2Player::SetupPlayerInputComponent(UInputComponent *PlayerInputCompon
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 }
+
+void AIntro2Player::Move(FVector2D Direction)
+{
+	AddActorWorldOffset(FVector(Direction, 0.0f) * MoveSpeed);
+}

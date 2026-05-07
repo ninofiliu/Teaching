@@ -18,4 +18,7 @@ class TEACHING_API AIntro2Controller : public APlayerController
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UInputMappingContext *IMC;
+
+private:
+	virtual void BeginPlay() override;
 };
