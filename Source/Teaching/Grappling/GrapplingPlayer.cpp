@@ -15,12 +15,6 @@ void AGrapplingPlayer::BeginPlay()
   Super::BeginPlay();
 
   UCharacterMovementComponent *Movement = GetCharacterMovement();
-
-  // UE_LOG(LogTemp, Log, TEXT("Movement mode: %s"), *UEnum::GetValueAsString(Movement->MovementMode));
-
-  // Movement->SetMovementMode(MOVE_Custom, CMOVE_Grappling);
-
-  // UE_LOG(LogTemp, Log, TEXT("Movement mode: %s"), *UEnum::GetValueAsString(Movement->MovementMode));
 }
 
 void AGrapplingPlayer::ThrowHook()

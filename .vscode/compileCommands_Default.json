@@ -1,5 +1,37 @@
 [
 	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Grappling\\GrapplingMovementComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Default\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Grappling\\GrapplingMovementComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Default\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Grappling\\GrapplingPlayer.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Default\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\Grappling\\GrapplingPlayer.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\filiu\\Desktop\\Teaching\\.vscode\\compileCommands_Default\\Teaching.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\filiu\\Desktop\\Teaching\\Source\\Teaching\\IntroCpp2\\Intro2Controller.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
