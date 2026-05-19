@@ -34,14 +34,11 @@ void AGrapplingPlayer::ThrowHook()
   if (!bHit)
     return;
 
-  UGrapplingMovementComponent *GrapplingMovement = GetGrapplingMovement();
+  DrawDebugSphere(GetWorld(), Hit.ImpactPoint, 50.0f, 8, FColor::Orange, true);
+
+  UGrapplingMovementComponent *GrapplingMovement = Cast<UGrapplingMovementComponent>(GetCharacterMovement());
   GrapplingMovement->GrappleTarget = Hit.ImpactPoint;
   GrapplingMovement->SetMovementMode(MOVE_Custom, CMOVE_Grappling);
 
   UE_LOG(LogTemp, Log, TEXT("Hook attached to: %s"), *Hit.ImpactPoint.ToString());
-}
-
-UGrapplingMovementComponent *AGrapplingPlayer::GetGrapplingMovement() const
-{
-  return Cast<UGrapplingMovementComponent>(GetCharacterMovement());
 }

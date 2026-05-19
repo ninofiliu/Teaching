@@ -26,11 +26,12 @@ void UGrapplingMovementComponent::PhysGrappling(float DeltaTime, int32 Iteration
   {
     // Accelerate toward the target each tick.
     const FVector PullDirection = ToTarget / Distance;
-    Velocity += PullDirection * GrapplePullForce * DeltaTime;
+    FVector Acc = PullDirection * GrapplePullForce; // add pull force
+    Acc -= GrappleDamping * Velocity;               // add damping force
+    Velocity += Acc;
   }
 
   // Move the capsule, resolving collisions along the way.
-  Iterations++;
   bJustTeleported = false;
 
   FHitResult Hit(1.f);

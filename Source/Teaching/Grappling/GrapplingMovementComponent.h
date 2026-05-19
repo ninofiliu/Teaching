@@ -18,9 +18,10 @@ class TEACHING_API UGrapplingMovementComponent : public UCharacterMovementCompon
   GENERATED_BODY()
 
 public:
-  // Acceleration applied toward the grapple target every second (cm/s²).
   UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grappling")
-  float GrapplePullForce = 2000.f;
+  float GrappleDamping = 0.5f;
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grappling")
+  float GrapplePullForce = 10.f;
 
   // World-space position the character is being pulled toward.
   FVector GrappleTarget = FVector::ZeroVector;
