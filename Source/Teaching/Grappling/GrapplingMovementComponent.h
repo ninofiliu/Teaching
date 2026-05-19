@@ -17,8 +17,16 @@ class TEACHING_API UGrapplingMovementComponent : public UCharacterMovementCompon
 {
   GENERATED_BODY()
 
+public:
+  // Acceleration applied toward the grapple target every second (cm/s²).
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grappling")
+  float GrapplePullForce = 2000.f;
+
 protected:
   // Called by the engine when MovementMode == MOVE_Custom.
   // CustomMovementMode holds the ECustomMovementMode sub-value.
   virtual void PhysCustom(float DeltaTime, int32 Iterations) override;
+
+private:
+  void PhysGrappling(float DeltaTime, int32 Iterations);
 };
