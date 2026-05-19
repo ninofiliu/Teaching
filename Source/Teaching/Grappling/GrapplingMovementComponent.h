@@ -22,6 +22,9 @@ public:
   UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grappling")
   float GrapplePullForce = 2000.f;
 
+  // World-space position the character is being pulled toward.
+  FVector GrappleTarget = FVector::ZeroVector;
+
 protected:
   // Called by the engine when MovementMode == MOVE_Custom.
   // CustomMovementMode holds the ECustomMovementMode sub-value.

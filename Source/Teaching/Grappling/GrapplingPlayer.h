@@ -18,6 +18,10 @@ public:
   UFUNCTION(BlueprintPure)
   UGrapplingMovementComponent *GetGrapplingMovement() const;
 
+  // Bind this to IA_ThrowHook in your Blueprint input graph.
+  UFUNCTION(BlueprintCallable, Category = "Grappling")
+  void ThrowHook();
+
 protected:
   virtual void BeginPlay() override;
 };

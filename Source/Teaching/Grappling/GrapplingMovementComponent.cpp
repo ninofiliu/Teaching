@@ -19,7 +19,6 @@ void UGrapplingMovementComponent::PhysGrappling(float DeltaTime, int32 Iteration
   if (DeltaTime < MIN_TICK_TIME)
     return;
 
-  const FVector GrappleTarget = FVector::ZeroVector;
   const FVector ToTarget = GrappleTarget - UpdatedComponent->GetComponentLocation();
   const float Distance = ToTarget.Size();
 
